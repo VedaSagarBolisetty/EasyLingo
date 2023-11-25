@@ -22,10 +22,3 @@ function AppRoute() {
 }
 
 export default AppRoute;
-
-
-
-
-
-{/* <Route path="/*" element={<Dashboard/>}/> */}
-{/* <Route path="/*" element={isLoggedIn === "true" ? <Dashboard/>: <SignIn/>}/> */}

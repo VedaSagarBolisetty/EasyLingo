@@ -43,7 +43,7 @@ export default class SignIn extends Component {
   render() {
 
     const formStyle = {
-      backgroundColor: '#f0f0f0', // Replace with your desired background color
+      backgroundColor: '#f0f0f0',
       padding: '20px',
       borderRadius: '8px',
     };
