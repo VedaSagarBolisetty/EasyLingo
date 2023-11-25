@@ -1,0 +1,116 @@
+/* Styles for headings */
+.heading {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+.head2 {
+    font-size: 24px;
+    color: teal;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.lang_cont{
+    display: flex;
+    flex-direction: column;
+}
+.up{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+.dwn{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.language_box{
+    width: 380px;
+    height: 225px;
+    border: 2px solid black;
+    border-radius: 12px;
+}
+.lang{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 40px;
+
+}
+.german{
+    background-image: url("https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/1200px-Flag_of_Germany.svg.png");
+    background-size: cover;
+    text-align: center;
+    color: #ccc;
+}
+.french{
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARMAAAC3CAMAAAAGjUrGAAAAFVBMVEX///8ZL47gFBQAIoqMlMDvlpbfAAAXqrYAAAAA/klEQVR4nO3QSQ0AIAADsHH6l4yKPUhaCc2oWTs9586aOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHy4ckD5KrN4eD2boIAAAAASUVORK5CYII=");
+    background-size: cover;
+    color: #333;
+    text-align: center;
+}
+.spanish{
+    background-image: url("https://www.flagdetective.com/images/download/spain-state-hi.jpg");
+    background-size: cover;
+    text-align: center;
+    color: #333;
+}
+.jap{
+    background-image: url("https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/2560px-Flag_of_Japan.svg.png");
+    background-size: cover;
+    color: #333;
+    text-align: center;
+}
+/* Styles for dropdowns */
+.dropdowns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dropdown {
+    margin-bottom: 15px;
+}
+
+/* Styles for labels */
+label {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 5px;
+    display: block;
+}
+
+/* Styles for select dropdowns */
+select {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+}
+
+/* Styles for button */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: center;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
