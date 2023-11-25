@@ -16,7 +16,7 @@ export default class SignUp extends Component {
         e.preventDefault();
         const {fname, lname, email, password} = this.state;
         console.log(fname, lname, email, password);
-        fetch("http://localhost:5000/register",{
+        fetch("https://easylingo-backend.vercel.app/register",{
             method: "POST",
             crossDomain: true,
             headers:{

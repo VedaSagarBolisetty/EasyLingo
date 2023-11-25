@@ -15,7 +15,7 @@ export default class SignIn extends Component {
               e.preventDefault();
               const {email, password} = this.state;
               console.log(email, password);
-              fetch("http://localhost:5000/loginuser",{
+              fetch("https://easylingo-backend.vercel.app/loginuser",{
               method: "POST",
               crossDomain: true,
               headers:{
